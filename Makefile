@@ -1,7 +1,7 @@
 #This makefile provides standard build and serve functionality
 #through jekyll for this project
 LINEBREAK = "*****************************************************************"
-WEB_SERVER=dmitri2@cs.pdx.edu
+WEB_SERVER=grace@cs.pdx.edu
 WEB_DIRECTORY = public_html/~grace
 
 all:
@@ -31,6 +31,6 @@ build:
 deploy: build
 	@[ -n "$(WEB_SERVER)" ] || { echo "Please set the WEB_SERVER variable to something like user@hostname" && false; }
 	rsync -az --delete --exclude .git ./_site/ $(WEB_SERVER):$(WEB_DIRECTORY)
-	
-pull-embedded-editor:
+
+
 	
