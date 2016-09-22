@@ -1,4 +1,5 @@
-##Compiled Source Folder  #
+# Ignoring Compiled Source #
+# Ignoring Hidden System Files #
 ###################
 _site/
-
+.idea/
