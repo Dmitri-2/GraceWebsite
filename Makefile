@@ -2,7 +2,7 @@
 #through jekyll for this project
 LINEBREAK = "*****************************************************************"
 WEB_SERVER=grace@cs.pdx.edu
-WEB_DIRECTORY = public_html/~grace
+WEB_DIRECTORY = public_html/
 
 all:
 	@echo "Building the website... Running command:"
